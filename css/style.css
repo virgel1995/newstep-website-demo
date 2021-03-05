@@ -1,0 +1,66 @@
+
+
+img{
+    border-radius: 10px;
+}
+.navbar {
+    border-bottom: solid 4px rgba(87, 164, 181);
+    margin-bottom: 2px;
+    opacity: .7;
+}
+
+header {
+    min-height         : 100vh;
+   background-image   : linear-gradient( rgba(87, 164, 181, .1),  rgba(87, 164, 181 , .1)), url(../images/header-background.webp) ; 
+    background-position: center;
+    background-size    : cover; 
+    /* margin-top: 5rem ; */
+
+}
+
+.logo {
+    width : 50px;
+    height: 50px;
+}
+
+section{
+    margin-top: 10px;
+}
+.sp1{
+    background: -webkit-linear-gradient(#FF50A1, #FEBA2B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sp2{
+    background: -webkit-linear-gradient(rgba(124, 248, 242, 0.6), rgba(6, 83, 104, 0.6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play{
+    color: #555555;
+}
+.app-store{
+    height: 7vh;
+    width: 120px;
+}
+.google-play{
+    height: 25vh;
+    width: 120px;
+}
+section h2{
+    position: relative;
+    padding-bottom: 20px;
+}
+section h2::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 0;
+    width: 100px;
+    border-bottom: 3px solid magenta;
+}
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+}
